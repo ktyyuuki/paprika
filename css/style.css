@@ -13,7 +13,7 @@
 }
 body{
     font-family: "Montserrat", sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 /* menu */
@@ -71,22 +71,21 @@ header .menu-nav{
 .carousel-item img{
     mix-blend-mode: multiply;
     height: 100vh;
-    min-height: 400px;
+    min-height: 600px;
 }
 .carousel-caption{
     top: 35%;
-    width: 50%;
     margin: 0 auto;
     text-align: center;
     color: #fff;
 }
 .carousel-caption p{
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     font-weight: 700;
     margin-bottom: .5rem;
 }
 .carousel-caption .carousel-title{
-    font-size: 5em;
+    /* font-size: 5em; */
     font-family: 'Baby Blue', sans-serif;
     font-weight: 400;
 }
@@ -148,17 +147,14 @@ img{
 }
 #menu-sec .texto{
     /* display: inline-block; */
-    padding-left: 1rem;
-    width: 80%;
+    /* padding-left: 1rem; */
+    /* width: 80%; */
     margin: 0 auto;
     align-self: center;
 }
 #menu-sec .texto .btn-color{
     margin-top: 1rem;
 }
-/* #menu-sec img{
-    width: 48%;
-} */
 
 /* Pages */
 .banner-seccion{
@@ -357,19 +353,18 @@ form input, form textarea{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    padding: 5rem 2rem;
+    padding: 5rem 0;
 }
 .book-table div{
     max-width: 80%;
     margin: 0 auto;
     text-align: center;
 }
-.book-table .subtitulo{
+/* .book-table .subtitulo{
     font-size: 46px;
-    /* line-height: 46px; */
-}
+} */
 .book-table h4{
-    font-size: 50px;
+    /* font-size: 50px; */
     font-weight: 800;
     color: #fff;
     text-transform: uppercase;
@@ -380,7 +375,7 @@ form input, form textarea{
     padding: .5rem 1.2rem;
     display: inline-block;
     border-radius: 28px;
-    margin: 0 5px;
+    margin: 0 5px 1rem;
     transition: all .2s ease-in;
 }
 .btn-lineal:is(:hover,:focus){
@@ -395,19 +390,12 @@ footer{
     background-color: #111;
     border-top: 3px solid #F2B33D;
     padding-top: 3rem;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
     color: #fff;
 }
 footer .cont-footer{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* width: 100%; */
     margin-bottom: 1.5rem;
-}
-footer .logo-foot{
-    /* display: inline-block;
-    width: 48%; */
 }
 footer .logo-foot img{
     margin-bottom: 1rem;
@@ -440,19 +428,133 @@ footer .rrss-foot a:is(:hover,:focus){
 footer .pie-pagina{
     border-top: 1px solid #fff;
     padding-top: 1rem;
+    padding-bottom:1rem;
 }
+
 footer .pie-pagina .logos{
-    display: inline-block;
-    width: 49%;
+    display: inline-flex;
 }
 footer .pie-pagina .logos img{
     margin-right: 1rem;
 }
 footer .pie-pagina p{
-    display: inline-block;
-    text-align: right;
-    width: 50%;
+    /* text-align: right; */
     font-weight: 300;
     font-size: 14px;
     margin: 0;
+}
+
+
+/* ==== Responsive ==== */
+/* Celu */
+@media screen and (min-width:0px) {
+    .menu-nav .btn-color{
+        margin-top: 1rem;
+    }
+    .carousel-caption p {
+        font-size: 1.3rem;
+    }
+    .carousel-caption .carousel-title {
+        font-size: 3em;
+        line-height: 1;
+    }
+    #menu-sec .texto{
+        width: 95%;
+        padding: 3rem 0;
+    }
+    .book-table .subtitulo{
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .book-table h4{
+        font-size: 38px;
+    }
+    footer .cont-footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .cont-footer .logo-foot{
+        text-align: center;
+    }
+    footer .pie-pagina .cont-pie-pagina{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .pie-pagina .logos{
+        margin-bottom: 1.2rem;
+    }
+    footer .pie-pagina p{
+        text-align: center;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width:768px) {
+    .carousel-caption{
+        width: 60%;
+    }
+    .carousel-caption p {
+        font-size: 1.5rem;
+    }
+    .carousel-caption .carousel-title {
+        font-size: 4em;
+    }
+    .book-table .subtitulo{
+        font-size: 38px;
+        line-height: 38px;
+    }
+    .book-table h4{
+        font-size: 42px;
+    }
+}
+
+/* Desktop (lg y xl) */
+@media screen and (min-width:992px) {
+    .menu-nav .btn-color{
+        margin-top: 0;
+    }
+    .carousel-caption{
+        width: 50%;
+    }
+    .carousel-caption .carousel-title {
+        font-size: 4.5em;
+    }
+    #menu-sec .texto{
+        width: 80%;
+        padding: 1rem 0 1rem 1rem;
+    }
+    .book-table .subtitulo{
+        font-size: 46px;
+        line-height: 46px;
+    }
+    .book-table h4{
+        font-size: 50px;
+    }
+    footer .cont-footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    footer .cont-footer .logo-foot{
+        text-align: left;
+    }
+    footer .pie-pagina .cont-pie-pagina{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    footer .pie-pagina .logos{
+        margin-bottom: 0;
+    }
+    footer .pie-pagina p{
+        text-align: right;
+    }
+}
+@media screen and (min-width:1200px) {
+    .carousel-caption .carousel-title {
+        font-size: 5em;
+    }
 }
