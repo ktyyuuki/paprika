@@ -20,42 +20,42 @@ body{
 header{
     background-color: rgba(0, 0, 0, .5);
     padding: 1.5rem 2.5rem; 
-    position: fixed;
+    /* position: fixed;
     top: 0;
     left: 0;
-    right: 0;
+    right: 0; */
 }
-header nav{
+/* header nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
-header nav .brand{
+} */
+/* header nav .brand{
     margin-right: 1.5rem;
     text-decoration: none;
-}
+} */
 .navbar{
-    list-style: none;
+    /* list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 auto; */
     text-align: center;
     text-transform: uppercase;
 }
-.navbar li{
+.navbar-nav li{
     padding: 0 1rem;
 }
-.navbar li a{
+.navbar-nav li a{
     text-decoration: none;
     color: #c4c4c4;
     font-weight: 500;
     letter-spacing: .1em;
     font-size: .9rem;
 }
-.navbar li a.active{
+.navbar-nav li a.active{
     color: #fff;
 }
 .btn-color{
@@ -74,17 +74,22 @@ header nav .brand{
 }
 
 /* content */
-.carousel{
-    background-image: url('../assets/slide1.jpg');
-    background-size: cover;
+.carousel-item{
+    /* background-image: url('../assets/slide1.jpg'); */
+    /* background-size: cover; */
     background-color: #797979;
-    background-blend-mode: multiply;
+    /* background-blend-mode: multiply; */
+    /* height: 100vh; */
+    /* min-height: 400px; */
+}
+.carousel-item img{
+    mix-blend-mode: multiply;
     height: 100vh;
     min-height: 400px;
 }
 .carousel-caption{
-    position: relative;
-    top: 40%;
+    /* position: relative; */
+    top: 35%;
     width: 50%;
     margin: 0 auto;
     text-align: center;
