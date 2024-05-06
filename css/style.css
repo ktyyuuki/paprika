@@ -19,43 +19,29 @@ body{
 /* menu */
 header{
     background-color: rgba(0, 0, 0, .5);
-    padding: 1.5rem 2.5rem; 
+    /* padding: 1.5rem 2.5rem;  */
     /* position: fixed;
     top: 0;
     left: 0;
     right: 0; */
 }
-/* header nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-} */
-/* header nav .brand{
-    margin-right: 1.5rem;
-    text-decoration: none;
-} */
-.navbar{
-    /* list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto; */
+header .menu-nav{
+    padding: 1.5rem 1rem;
     text-align: center;
     text-transform: uppercase;
 }
-.navbar-nav li{
-    padding: 0 1rem;
+.menu-nav li{
+    padding: 0 .5rem;
 }
-.navbar-nav li a{
+.menu-nav li a{
     text-decoration: none;
     color: #c4c4c4;
     font-weight: 500;
     letter-spacing: .1em;
     font-size: .9rem;
+    /* padding: 0 1rem!important; */
 }
-.navbar-nav li a.active{
+.menu-nav li a.active{
     color: #fff;
 }
 .btn-color{
@@ -68,19 +54,19 @@ header{
     font-size: .85rem;
     letter-spacing: .1rem;
     display: inline-block;
+    transition: all .2s ease-in;
 }
 .btn-color i{
     margin-right: .1rem;
 }
+.btn-color:is(:hover,:focus){
+    background-color: #7c151f;
+    color: #fff;
+}
 
 /* content */
 .carousel-item{
-    /* background-image: url('../assets/slide1.jpg'); */
-    /* background-size: cover; */
     background-color: #797979;
-    /* background-blend-mode: multiply; */
-    /* height: 100vh; */
-    /* min-height: 400px; */
 }
 .carousel-item img{
     mix-blend-mode: multiply;
@@ -88,7 +74,6 @@ header{
     min-height: 400px;
 }
 .carousel-caption{
-    /* position: relative; */
     top: 35%;
     width: 50%;
     margin: 0 auto;
@@ -100,10 +85,15 @@ header{
     font-weight: 700;
     margin-bottom: .5rem;
 }
-.carousel-caption h1{
+.carousel-caption .carousel-title{
     font-size: 5em;
     font-family: 'Baby Blue', sans-serif;
     font-weight: 400;
+}
+.carousel-indicators button{
+    height: 1rem!important;
+    width: 1rem!important;
+    border-radius: 50%;
 }
 
 .text-amarillo{
@@ -119,23 +109,22 @@ header{
     font-family: "Baby Blue", sans-serif;
     color: #F2B33D;
     font-weight: 400;
-}
-h6.subtitulo{
     font-size: 26px;
+    margin-bottom: 0;
 }
 img{
     max-width: 100%;
 }
 
 
-#about img{
+/* #about img{
     width: 48%;
     margin-right: 1rem;
 }
 #about .texto{
     width: 49%;
     display: inline-block;
-}
+} */
 .firma{
     display: inline-block;
     color: #9F2A36;
@@ -158,16 +147,18 @@ img{
     background-color: #F6F6F6;
 }
 #menu-sec .texto{
-    display: inline-block;
-    padding: 3rem;
-    width: 49%;
+    /* display: inline-block; */
+    padding-left: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    align-self: center;
 }
 #menu-sec .texto .btn-color{
     margin-top: 1rem;
 }
-#menu-sec img{
+/* #menu-sec img{
     width: 48%;
-}
+} */
 
 /* Pages */
 .banner-seccion{
@@ -195,7 +186,7 @@ img{
 
 .content{
     margin: 3rem auto;
-    width: 90%;
+    /* width: 90%; */
 }
 
 /* Menu page */
@@ -373,8 +364,9 @@ form input, form textarea{
     margin: 0 auto;
     text-align: center;
 }
-.book-table h6{
+.book-table .subtitulo{
     font-size: 46px;
+    /* line-height: 46px; */
 }
 .book-table h4{
     font-size: 50px;
@@ -389,34 +381,47 @@ form input, form textarea{
     display: inline-block;
     border-radius: 28px;
     margin: 0 5px;
+    transition: all .2s ease-in;
+}
+.btn-lineal:is(:hover,:focus){
+    background-color: #fff;
+}
+.btn-lineal:is(:hover,:focus) img{
+    filter: invert(.85);
 }
 
 /* Footer */
 footer{
     background-color: #111;
     border-top: 3px solid #F2B33D;
-    padding: 3rem 2.5rem 2rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
     color: #fff;
 }
 footer .cont-footer{
-    display: inline-block;
-    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 100%; */
     margin-bottom: 1.5rem;
 }
 footer .logo-foot{
-    display: inline-block;
-    width: 48%;
+    /* display: inline-block;
+    width: 48%; */
 }
 footer .logo-foot img{
     margin-bottom: 1rem;
 }
 footer .rrss-foot{
-    display: inline-block;
-    width: 50%;
-    text-align: right;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 footer .rrss-foot a{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -425,6 +430,12 @@ footer .rrss-foot a{
     padding: 10px;
     background-color: #F2B33D;
     color: #fff;
+    transition: all .2s ease-in;
+}
+footer .rrss-foot a:is(:hover,:focus){
+    background-color: transparent;
+    border: 1px solid #F2B33D;
+    color: #F2B33D;
 }
 footer .pie-pagina{
     border-top: 1px solid #fff;
