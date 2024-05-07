@@ -413,6 +413,7 @@ footer .pie-pagina{
 
 footer .pie-pagina .logos{
     display: inline-flex;
+    flex-wrap: wrap;
 }
 footer .pie-pagina .logos img{
     margin-right: 1rem;
@@ -503,7 +504,11 @@ footer .pie-pagina p{
         justify-content: center;
     }
     footer .pie-pagina .logos{
-        margin-bottom: 1.2rem;
+        justify-content: space-evenly;
+        margin-bottom: .5rem;
+    }
+    footer .pie-pagina .logos img{
+        margin: 0 .5rem 1rem;
     }
     footer .pie-pagina p{
         text-align: center;
@@ -647,7 +652,11 @@ footer .pie-pagina p{
         justify-content: space-between;
     }
     footer .pie-pagina .logos{
+        justify-content: flex-start;
         margin-bottom: 0;
+    }
+    footer .pie-pagina .logos img{
+        margin: 0 1rem 0 0;
     }
     footer .pie-pagina p{
         text-align: right;
