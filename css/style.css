@@ -63,7 +63,7 @@ header .menu-nav{
 }
 .carousel-item img{
     mix-blend-mode: multiply;
-    height: 100vh;
+    /* height: 100vh; */
     min-height: 600px;
     object-fit: cover;
 }
@@ -141,21 +141,22 @@ img{
     background-image: url('../assets/slide1.jpg');
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    height: 350px;
     background-color: #666666;
     background-blend-mode: multiply;
-    padding-top: 130px;
+    padding-top: 100px;
+    padding-bottom: 2rem;
 }
-.banner-seccion div{
+/* .banner-seccion div{
     max-width: 80%;
     text-align: center;
     margin: 0 auto;
     padding: 3rem;
-}
+} */
 .banner-seccion h1{
     font-family: 'Baby Blue', sans-serif;
     font-weight: 400;
-    font-size: 4.5em;
+    /* font-size: 4.5em; */
     color: #fff;
     margin: 0;
 }
@@ -287,16 +288,15 @@ img{
     padding: 1rem;
     text-align: center;
 }
-.contact .info{
-    display: inline-block;
-    width: 30%;
-    margin: 0 .5rem;
-}
 .contact .info .icono{
     height: 100px;
     width: 100px;
     border-radius: 50%;
     background-color: #9F2A36;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 1rem;
     margin:0 auto 1rem;
     font-size: 40px;
@@ -432,6 +432,9 @@ footer .pie-pagina p{
     .menu-nav .btn-color{
         margin-top: 1rem;
     }
+    .carousel-item img{
+        height: 85vh;
+    }
     .carousel-caption p {
         font-size: 1.3rem;
     }
@@ -449,6 +452,9 @@ footer .pie-pagina p{
     }
     .book-table h4{
         font-size: 38px;
+    }
+    .banner-seccion h1{
+        font-size: 3em;
     }
     .galeria{
         grid-template-columns: repeat(1,1fr);
@@ -519,6 +525,9 @@ footer .pie-pagina p{
 
 /* Tablet */
 @media screen and (min-width:768px) {
+    .carousel-item img{
+        height: 80vh;
+    }
     .carousel-caption{
         width: 60%;
     }
@@ -534,6 +543,9 @@ footer .pie-pagina p{
     }
     .book-table h4{
         font-size: 42px;
+    }
+    .banner-seccion h1{
+        font-size: 4.5em;
     }
     .galeria{
         grid-template-columns: repeat(2,1fr);
@@ -591,6 +603,9 @@ footer .pie-pagina p{
     #menu-sec .texto{
         width: 80%;
         padding: 1rem 0 1rem 1rem;
+    }
+    .carousel-item img{
+        height: 100vh;
     }
     .book-table .subtitulo{
         font-size: 46px;
