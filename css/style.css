@@ -63,7 +63,6 @@ header .menu-nav{
 }
 .carousel-item img{
     mix-blend-mode: multiply;
-    /* height: 100vh; */
     min-height: 600px;
     object-fit: cover;
 }
@@ -147,16 +146,9 @@ img{
     padding-top: 100px;
     padding-bottom: 2rem;
 }
-/* .banner-seccion div{
-    max-width: 80%;
-    text-align: center;
-    margin: 0 auto;
-    padding: 3rem;
-} */
 .banner-seccion h1{
     font-family: 'Baby Blue', sans-serif;
     font-weight: 400;
-    /* font-size: 4.5em; */
     color: #fff;
     margin: 0;
 }
