@@ -65,6 +65,7 @@ header .menu-nav{
     mix-blend-mode: multiply;
     height: 100vh;
     min-height: 600px;
+    object-fit: cover;
 }
 .carousel-caption{
     top: 35%;
