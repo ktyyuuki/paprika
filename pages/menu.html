@@ -7,7 +7,7 @@
     <title>Menu | Paprika Restaurant</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <!-- Menu bts5 -->
@@ -64,6 +64,51 @@
 
     <!-- Menu -->
     <main class="container content">
+        <ul class="nav nav-pills" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="small-tab" data-bs-toggle="pill" data-bs-target="#small" type="button" role="tab" aria-controls="small" aria-selected="true">Small plates</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="entrees-tab" data-bs-toggle="pill" data-bs-target="#entrees" type="button" role="tab" aria-controls="entrees" aria-selected="false">Entrees</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="desserts-tab" data-bs-toggle="pill" data-bs-target="#desserts" type="button" role="tab" aria-controls="desserts" aria-selected="false">Desserts</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="wine-tab" data-bs-toggle="pill" data-bs-target="#wine" type="button" role="tab" aria-controls="wine" aria-selected="false">Wine</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="beer-tab" data-bs-toggle="pill" data-bs-target="#beer" type="button" role="tab" aria-controls="beer" aria-selected="false">Beer</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="small" role="tabpanel" aria-labelledby="small-tab" tabindex="0">
+                <div class="row">
+                    <!-- Item -->
+                    <article class="col-lg-6">
+                        <div class="menu-item">
+                            <img src="../assets/menu/1.jpg" width="100" height="100" alt="menu1">
+                            <div class="descripcion-menu">
+                                <div class="header-menu">
+                                    <p class="titulo-menu">Choice of gourmet sausage w Saurkraut, Pickles and local Bread</p>
+                                    <p class="precio-menu">$9.50</p>
+                                </div>
+                                <p>Polish Kielbasa / Swiss Bockwurts / German Spice / Italian Chicken Apple / Hungarian Sweet</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="entrees" role="tabpanel" aria-labelledby="entrees-tab" tabindex="0">...</div>
+
+            <div class="tab-pane fade" id="desserts" role="tabpanel" aria-labelledby="desserts-tab" tabindex="0">...</div>
+
+            <div class="tab-pane fade" id="wine" role="tabpanel" aria-labelledby="wine-tab" tabindex="0">...</div>
+
+            <div class="tab-pane fade" id="beer" role="tabpanel" aria-labelledby="beer-tab" tabindex="0">...</div>
+        </div>
+
         <!-- tabs -->
         <ul class="tabs">
             <li><a href="">Small plates</a></li>

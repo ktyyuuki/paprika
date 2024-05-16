@@ -1,0 +1,58 @@
+.nav-pills{
+    justify-content: center;
+    margin-bottom: 2rem;
+    .nav-item{
+        margin: 0 .5rem;
+        .nav-link{
+            border-radius: 0;
+            padding: .5rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #666;
+            background-color: transparent;
+            &.active{
+                border-bottom: 1px solid $amarillo;
+            }
+        }
+    }
+}
+
+.menu-item{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    img{
+        border-radius: 8px;
+    }
+    .descripcion-menu{
+        margin-left: 1rem;
+        .header-menu{
+            display: inline-flex;
+            width: 100%;
+            justify-content: space-between;
+            padding-bottom: .7rem;
+            border-bottom: 2px dashed $black;
+            margin-bottom: .7rem;
+            .titulo-menu{
+                font-size: 1rem;
+                margin-bottom: 0;
+                font-weight: 700;
+                color: #444;
+            }
+            .precio-menu{
+                font-size: 1rem;
+                font-weight: 700;
+                margin-bottom: 0;
+                margin-left: 1rem;
+                text-align: right;
+                color: #444;
+            }
+        }
+        p{
+            font-size: 14px;
+            color: #666;
+        }
+    }
+}

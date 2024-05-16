@@ -1,0 +1,99 @@
+.carousel-item{
+    background-color: #797979;
+    img{
+        mix-blend-mode: multiply;
+        min-height: 600px;
+        object-fit: cover;
+        @include mobile{
+            height: 85vh;
+        }
+        @include tablet{
+            height: 80vh;
+        }
+        @include desktop{
+            height: 100vh;
+        }
+    }
+    .carousel-caption{
+        top: 35%;
+        margin: 0 auto;
+        text-align: center;
+        color: $blanco;
+        @include tablet{
+            width: 60%;
+        }
+        @include desktop{
+            width: 50%;
+        }
+        .carousel-title{
+            font-family: $fuentecursiva;
+            font-weight: 400;
+            @include mobile{
+                font-size: 3em;
+                line-height: 1;
+            }
+            @include tablet{
+                font-size: 4em;
+            }
+            @include desktop{
+                font-size: 4.5em;
+            }
+            @include large{
+                font-size: 5em;
+            }
+        }
+        p{
+            font-weight: 700;
+            margin-bottom: .5rem;
+            @include mobile{
+                font-size: 1.3rem;
+            }
+            @include tablet{
+                font-size: 1.5rem
+            }
+        }
+    }
+}
+.carousel-indicators{
+    button{
+        height: 1rem!important;
+        width: 1rem!important;
+        border-radius: 50%;
+    }
+}
+.firma{
+    display: inline-block;
+    color: $burdeo;
+    font-family: $fuentecursiva;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 1rem;
+    .linea{
+        height: 2px;
+        width: 100px;
+        background-color: $burdeo;
+        display: inline-block;
+        margin-right: 1rem;
+    }
+    p{
+        display: inline;
+    }
+}
+#menu-sec{
+    background-color: $light;
+    .texto{
+        margin: 0 auto;
+        align-self: center;
+        @include mobile{
+            width: 95%;
+            padding: 3rem 0;
+        }
+        @include desktop{
+            width: 80%;
+            padding: 1rem 0 1rem 1rem;
+        }
+        .btn-color{
+            margin-top: 1rem;
+        }
+    }
+}

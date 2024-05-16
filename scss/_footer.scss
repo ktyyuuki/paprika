@@ -1,0 +1,103 @@
+footer{
+    background-color: $negro;
+    border-top: 3px solid $amarillo;
+    padding-top: 3rem;
+    color: $blanco;
+    .cont-footer{
+        display: flex;
+        margin-bottom: 1.5rem;
+        @include mobile{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        @include desktop{
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .logo-foot{
+            @include mobile{
+                text-align: center;
+            }
+            @include desktop{
+                text-align: left;
+            }
+            img{
+                margin-bottom: 1rem;
+            }
+        }
+        .rrss-foot{
+            display: inline-flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            a{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                font-size: 20px;
+                margin: 0 5px;
+                padding: 10px;
+                background-color: $amarillo;
+                color: $blanco;
+                transition: all .2s ease-in;
+                &:is(:hover,:focus){
+                    background-color: transparent;
+                    border: 1px solid $amarillo;
+                    color: $amarillo;
+                }
+            }
+        }
+    }
+    .pie-pagina{
+        border-top: 1px solid $blanco;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        .cont-pie-pagina{
+            display: flex;
+            align-items: center;
+            @include mobile{
+                flex-direction: column;
+                justify-content: center;
+            }
+            @include desktop{
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .logos{
+                display: inline-flex;
+                flex-wrap: wrap;
+                @include mobile{
+                    justify-content: space-evenly;
+                    margin-bottom: .5rem;
+                }
+                @include desktop{
+                    justify-content: flex-start;
+                    margin-bottom: 0;
+                }
+                img{
+                    @include mobile{
+                        margin: 0 .5rem 1rem;
+                    }
+                    @include desktop{
+                        margin: 0 1rem 0 0;
+                    }
+                }
+            }
+        }
+        p{
+            font-weight: 300;
+            font-size: 14px;
+            margin: 0;
+            @include mobile{
+                text-align: center;
+            }
+            @include desktop{
+                text-align: right;
+            }
+        }
+    }
+}

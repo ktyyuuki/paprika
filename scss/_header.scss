@@ -1,0 +1,30 @@
+// Menu
+header{
+    background-color: rgba($black, .5);
+    .menu-nav{
+        padding: 1.5rem 1rem;
+        text-align: center;
+        text-transform: uppercase;
+        li{
+            padding: 0 .5rem;
+            a{
+                text-decoration: none;
+                color: #c4c4c4;
+                font-weight: 500;
+                letter-spacing: .1em;
+                font-size: .9rem;
+                &.active{
+                    color: $blanco;
+                }
+            }
+        }
+        .btn-color{
+            @include mobile {
+                margin-top: 1rem;
+            }
+            @include desktop {
+                margin-top: 0;
+            }
+        }
+    }
+}
