@@ -1,3 +1,43 @@
+// book a table
+.book-table{
+    background-image: url('../assets/booktable.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5rem 0;
+    text-align: center;
+    .subtitulo{
+        @include mobile{
+            font-size: 28px;
+            line-height: 28px;
+        }
+        @include tablet{
+            font-size: 38px;
+            line-height: 38px;
+        }
+        @include desktop{
+            font-size: 46px;
+            line-height: 46px;
+        }
+    }
+    h4{
+        font-weight: 800;
+        color: #fff;
+        text-transform: uppercase;
+        margin-bottom: 1.5rem;
+        @include mobile{
+            font-size: 38px;
+        }
+        @include tablet{
+            font-size: 42px;
+        }
+        @include desktop{
+            font-size: 50px;
+        }
+    }
+}
+
+// Footer
 footer{
     background-color: $negro;
     border-top: 3px solid $amarillo;

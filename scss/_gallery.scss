@@ -6,6 +6,7 @@
     grid-column: $startColumn unquote("/") $endColumn;
     grid-row: $startRow unquote("/") $endRow;
 }
+
 .galeria{
     display: grid;
     gap: 1rem;
