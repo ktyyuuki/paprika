@@ -23,24 +23,23 @@
     }
 }
 
-.hours{
-    ul{
+.contact-info{
+    .hours{
         list-style: none;
         padding: 0;
         li{
             margin-bottom: 1rem;
         }
     }
-}
-
-.form{
-    .form-label{
-        color: #666;
-    }
-    .form-control{
-        border-radius: 8px;
-        padding: .5rem 1rem;
-        margin-bottom: 1rem;
-        border: 1px solid #e3e3e3;
+    .contact-form{
+        .form-label{
+            color: #666;
+        }
+        .form-control{
+            border-radius: 8px;
+            padding: .5rem 1rem;
+            margin-bottom: 1rem;
+            border: 1px solid #e3e3e3;
+        }
     }
 }

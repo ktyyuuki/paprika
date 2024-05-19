@@ -17,8 +17,7 @@
         @for $i from 1 through 9{
             &:nth-child(#{$i}){
                 @include mobile{
-                    grid-column: 1/2;
-                    grid-row: $i unquote("/") $i + 1;
+                    @include gridimgs(1, 2, $i, $i + 1);
                 }
                 @include tablet{
                     @if $i == 1 {

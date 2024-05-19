@@ -634,7 +634,7 @@ footer .pie-pagina p {
 }
 @media screen and (min-width: 0px) {
   .galeria img:nth-child(1) {
-    grid-column: 1/2;
+    grid-column: 1 / 2;
     grid-row: 1 / 2;
   }
 }
@@ -652,7 +652,7 @@ footer .pie-pagina p {
 }
 @media screen and (min-width: 0px) {
   .galeria img:nth-child(2) {
-    grid-column: 1/2;
+    grid-column: 1 / 2;
     grid-row: 2 / 3;
   }
 }
@@ -670,7 +670,7 @@ footer .pie-pagina p {
 }
 @media screen and (min-width: 0px) {
   .galeria img:nth-child(3) {
-    grid-column: 1/2;
+    grid-column: 1 / 2;
     grid-row: 3 / 4;
   }
 }
@@ -688,7 +688,7 @@ footer .pie-pagina p {
 }
 @media screen and (min-width: 0px) {
   .galeria img:nth-child(4) {
-    grid-column: 1/2;
+    grid-column: 1 / 2;
     grid-row: 4 / 5;
   }
 }
@@ -706,7 +706,7 @@ footer .pie-pagina p {
 }
 @media screen and (min-width: 0px) {
   .galeria img:nth-child(5) {
-    grid-column: 1/2;
+    grid-column: 1 / 2;
     grid-row: 5 / 6;
   }
 }
@@ -724,7 +724,7 @@ footer .pie-pagina p {
 }
 @media screen and (min-width: 0px) {
   .galeria img:nth-child(6) {
-    grid-column: 1/2;
+    grid-column: 1 / 2;
     grid-row: 6 / 7;
   }
 }
@@ -742,7 +742,7 @@ footer .pie-pagina p {
 }
 @media screen and (min-width: 0px) {
   .galeria img:nth-child(7) {
-    grid-column: 1/2;
+    grid-column: 1 / 2;
     grid-row: 7 / 8;
   }
 }
@@ -760,7 +760,7 @@ footer .pie-pagina p {
 }
 @media screen and (min-width: 0px) {
   .galeria img:nth-child(8) {
-    grid-column: 1/2;
+    grid-column: 1 / 2;
     grid-row: 8 / 9;
   }
 }
@@ -778,7 +778,7 @@ footer .pie-pagina p {
 }
 @media screen and (min-width: 0px) {
   .galeria img:nth-child(9) {
-    grid-column: 1/2;
+    grid-column: 1 / 2;
     grid-row: 9 / 10;
   }
 }
@@ -818,18 +818,17 @@ footer .pie-pagina p {
   text-transform: uppercase;
 }
 
-.hours ul {
+.contact-info .hours {
   list-style: none;
   padding: 0;
 }
-.hours ul li {
+.contact-info .hours li {
   margin-bottom: 1rem;
 }
-
-.form .form-label {
+.contact-info .contact-form .form-label {
   color: #666;
 }
-.form .form-control {
+.contact-info .contact-form .form-control {
   border-radius: 8px;
   padding: 0.5rem 1rem;
   margin-bottom: 1rem;
