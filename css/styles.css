@@ -9,10 +9,16 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
 }
-
-img {
+body img {
   max-width: 100%;
+}
+body .container {
+  overflow: hidden;
+}
+body .container-fluid {
+  overflow: hidden;
 }
 
 header {

@@ -5,7 +5,14 @@
 }
 body{
     font-family: $fuenteppal;
-}
-img{
-    max-width: 100%;
+    overflow-x: hidden;
+    img{
+        max-width: 100%;
+    }
+    .container{
+        overflow: hidden;
+    }
+    .container-fluid{
+        overflow: hidden;
+    }
 }
