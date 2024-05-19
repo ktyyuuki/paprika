@@ -5,13 +5,23 @@
 // Bootstrap icons
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
+// Base
 @import 'variables';
 @import 'responsive';
-@import 'reset';
-@import 'header';
-@import 'footer';
-@import 'generales';
-@import 'botones';
-@import 'home';
-@import 'menu';
-@import 'gallery';
+@import 'mixins';
+
+// Layout
+@import 'layout/reset';
+@import 'layout/header';
+@import 'layout/footer';
+
+// Componentes y generales
+@import 'components/generales';
+@import 'components/botones';
+
+// Paginas
+@import 'pages/home';
+@import 'pages/menu';
+@import 'pages/events';
+@import 'pages/gallery';
+@import 'pages/contact';

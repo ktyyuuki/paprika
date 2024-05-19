@@ -16,6 +16,7 @@
         margin-right: .1rem;
     }
     &:is(:hover,:focus){
+        color: $blanco;
         background-color: $burdeo-oscuro;
     }
 }

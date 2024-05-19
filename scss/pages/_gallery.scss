@@ -1,12 +1,3 @@
-@mixin grids($column, $row){
-    grid-template-columns: repeat($column,1fr);
-    grid-template-rows: repeat($row,.5fr);
-}
-@mixin gridimgs($startColumn, $endColumn, $startRow, $endRow){
-    grid-column: $startColumn unquote("/") $endColumn;
-    grid-row: $startRow unquote("/") $endRow;
-}
-
 .galeria{
     display: grid;
     gap: 1rem;

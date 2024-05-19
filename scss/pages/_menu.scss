@@ -38,24 +38,52 @@
             padding-bottom: .7rem;
             border-bottom: 2px dashed $black;
             margin-bottom: .7rem;
+            @include mobile{
+                flex-wrap: wrap;
+            }
+            @include tablet{
+                flex-wrap: nowrap;
+            }
             .titulo-menu{
-                font-size: 1rem;
-                margin-bottom: 0;
                 font-weight: 700;
                 color: #444;
+                @include mobile{
+                    font-size: .9rem;
+                    line-height: 1.2rem;
+                    margin-bottom: .3rem;
+                    width: 100%;
+                }
+                @include tablet{
+                    margin-bottom: 0;
+                    font-size: 1rem;
+                    line-height: 1.2rem;
+                    width: auto;
+                }
             }
             .precio-menu{
-                font-size: 1rem;
                 font-weight: 700;
                 margin-bottom: 0;
-                margin-left: 1rem;
-                text-align: right;
                 color: #444;
+                @include mobile{
+                    font-size: .9rem;
+                    text-align: left;
+                }
+                @include tablet{
+                    font-size: 1rem;
+                    text-align: right;
+                    margin-left: 1rem;
+                }
             }
         }
         p{
-            font-size: 14px;
+            margin-bottom: 0;
             color: #666;
+            @include mobile{
+                font-size: 12px;
+            }
+            @include tablet{
+                font-size: 14px;
+            }
         }
     }
 }

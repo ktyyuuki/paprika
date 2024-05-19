@@ -1,0 +1,46 @@
+.contact{
+    background-color: #f6f6f6;
+    padding: 2.5rem 1rem;
+    text-align: center;
+    .icono{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: $burdeo;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        margin: 0 auto 1rem;
+        font-size: 40px;
+        color: $amarillo;
+    }
+    p{
+        b{
+            text-transform: uppercase;
+        }
+    }
+}
+
+.hours{
+    ul{
+        list-style: none;
+        padding: 0;
+        li{
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.form{
+    .form-label{
+        color: #666;
+    }
+    .form-control{
+        border-radius: 8px;
+        padding: .5rem 1rem;
+        margin-bottom: 1rem;
+        border: 1px solid #e3e3e3;
+    }
+}

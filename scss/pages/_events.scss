@@ -1,0 +1,65 @@
+.intro{
+    margin: 0 auto 3rem;
+    text-align: center;
+    @include mobile{
+        width: 100%;
+    }
+    @include desktop{
+        width: 60%;
+    }
+}
+
+.events{
+    .card{
+        border: none;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+        overflow: hidden;
+        img{
+            aspect-ratio: 1.6;
+            object-fit: cover;
+        }
+        .evento-cuerpo{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+            .fecha-evento{
+                text-align: center;
+                min-width: 50px;
+                margin-right: 1rem;
+                margin-top: .3rem;
+                p{
+                    font-weight: 700;
+                    font-size: 24px;
+                    color: #444;
+                }
+                span{
+                    font-size: .7rem;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    font-weight: 600;
+                    display: block;
+                    color: $burdeo;
+                }
+            }
+            .texto-evento{
+                .titulo-evento{
+                    font-size: 1rem;
+                    font-weight: 700;
+                    margin-bottom: .4rem;
+                }
+                p{
+                    font-size: 14px;
+                    font-weight: 300;
+                    color: #666;
+                }
+                b{
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+
+
