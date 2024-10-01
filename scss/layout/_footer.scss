@@ -43,6 +43,12 @@ footer{
     border-top: 3px solid $amarillo;
     padding-top: 3rem;
     color: $blanco;
+    @include mobile{
+        padding-bottom: 3rem;
+    }
+    @include desktop{
+        padding-bottom: 0;
+    }
     .cont-footer{
         display: flex;
         margin-bottom: 1.5rem;

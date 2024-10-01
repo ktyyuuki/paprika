@@ -1,6 +1,15 @@
 // Menu
 header{
     background-color: rgba($black, .5);
+    .topbar{
+        background-color: $black;
+        color: $blanco;
+        padding: .3rem 1rem;
+        p{
+            margin: 0;
+            font-size: 14px;
+        }
+    }
     .menu-nav{
         padding: 1.5rem 1rem;
         text-align: center;

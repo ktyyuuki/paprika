@@ -24,6 +24,15 @@ body .container-fluid {
 header {
   background-color: rgba(0, 0, 0, 0.5);
 }
+header .topbar {
+  background-color: #000;
+  color: #fff;
+  padding: 0.3rem 1rem;
+}
+header .topbar p {
+  margin: 0;
+  font-size: 14px;
+}
 header .menu-nav {
   padding: 1.5rem 1rem;
   text-align: center;
@@ -106,6 +115,16 @@ footer {
   border-top: 3px solid #F2B33D;
   padding-top: 3rem;
   color: #fff;
+}
+@media screen and (min-width: 0px) {
+  footer {
+    padding-bottom: 3rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  footer {
+    padding-bottom: 0;
+  }
 }
 footer .cont-footer {
   display: flex;
@@ -309,6 +328,15 @@ footer .pie-pagina p {
 }
 .btn-lineal:is(:hover, :focus) img {
   filter: invert(0.85);
+}
+
+.btn-reservation-sm {
+  position: fixed;
+  bottom: 0.5rem;
+  left: 1rem;
+  right: 1rem;
+  z-index: 999;
+  text-align: center;
 }
 
 .carousel-item {
@@ -839,4 +867,4 @@ footer .pie-pagina p {
   padding: 0.5rem 1rem;
   margin-bottom: 1rem;
   border: 1px solid #e3e3e3;
-}/*# sourceMappingURL=styles.css.map */
+}
