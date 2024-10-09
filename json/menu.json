@@ -1,0 +1,236 @@
+[
+    {
+        "category": "Small plates",
+        "name": "Choice of gourmet sausage w Saurkraut, Pickles and local Bread",
+        "price": "9.50",
+        "description": "Polish Kielbasa / Swiss Bockwurts / German Spice / Italian Chicken Apple / Hungarian Sweet",
+        "img":"../assets/menu/gourmet-sausage/1.jpg"
+    },
+    {
+        "category": "Small plates",
+        "name": "Caprese Platter",
+        "price": "14",
+        "description": "w Mozzarella,Tomatoes,Pickles and local Bread",
+        "img":"../assets/menu/caprese-platter/1.jpg"
+    },
+    {
+        "category": "Small plates",
+        "name": "Soup of the day",
+        "price": "8",
+        "description": "",
+        "img":""
+    },
+    {
+        "category": "Small plates",
+        "name": "Cheese Platter",
+        "price": "14",
+        "description": "w Parmiciano Reggiano, Jarlsber and Brie",
+        "img":""
+    },
+    {
+        "category": "Small plates",
+        "name": "House salad",
+        "price": "12",
+        "description": "Mixed greens, Tomatoes, Cucumber, Olives and Peppers",
+        "img":"../assets/menu/house-salad/1.jpg"
+    },
+    {
+        "category": "Small plates",
+        "name": "Paprika Platter",
+        "price": "18",
+        "description": "w Prosciutto di Parma, Bresaola Salami, Parmigiano Reggiano and Austrian Gruyere",
+        "img":"../assets/menu/paprika-platter/1.jpg"
+    },
+    {
+        "category": "Small plates",
+        "name": "Vegan Sausage",
+        "price": "9.50",
+        "description": "w Sauerkraut, Pickles and local Bread",
+        "img":"../assets/menu/vegan-sausage/1.jpg"
+    },
+    {
+        "category": "Small plates",
+        "name": "Ceaser salad",
+        "price": "12",
+        "description": "",
+        "img":"../assets/menu/caesar-salad/1.jpg"
+    },
+
+    {
+        "category": "Entrees",
+        "name": "Paprika goulash",
+        "price": "21.50",
+        "description": "Pork goulash with Gnocchi and garnished with Scalions",
+        "img":"../assets/menu/paprika-goulash/1.jpg"
+    },
+    {
+        "category": "Entrees",
+        "name": "Chicken Paprikash",
+        "price": "22",
+        "description": "w Mash Potatoes",
+        "img":"../assets/menu/chicken-paprikash/1.jpg"
+    },
+    {
+        "category": "Entrees",
+        "name": "Szeged Goulash",
+        "price": "22.50",
+        "description": "Pork goulash cooked with Sauerkraut n Cream served with Gnocchi",
+        "img":"../assets/menu/szeged-goulash/1.jpg"
+    },
+    {
+        "category": "Entrees",
+        "name": "Vegetable goulash",
+        "price": "20",
+        "description": "w Gnocchi",
+        "img":""
+    },
+    {
+        "category": "Entrees",
+        "name": "2 Polish Kielbasa",
+        "price": "18",
+        "description": "w Mash Potatoes and homemade Gravy",
+        "img":"../assets/menu/polish-kielbasa/1.jpg"
+    },
+    {
+        "category": "Entrees",
+        "name": "Mix of 2 sausages of 50 your choice",
+        "price": "18.50",
+        "description": "w Mash Potateos and homemade Gravy",
+        "img":"../assets/menu/mix-sausage/1.jpg"
+    },
+
+    {
+        "category": "Desserts",
+        "name": "Homemade Apple strudl",
+        "price": "9.50",
+        "description": "Homemade apple strudl served with fresh made whip cream",
+        "img":"../assets/menu/homemade-apple-strudel/1.jpg"
+    },
+    {
+        "category": "Desserts",
+        "name": "Chocolate cake",
+        "price": "9.50",
+        "description": "",
+        "img":""
+    },
+
+    {
+        "category": "Wine",
+        "name": "Hahn Cabernet Sauvignon 2019,California",
+        "price": "9 / 36",
+        "description": "",
+        "img":""
+    },
+    {
+        "category": "Wine",
+        "name": "Herman Kadarka 2019,Hungary",
+        "price": "13 / 52",
+        "description": "",
+        "img":""
+    },
+    {
+        "category": "Wine",
+        "name": "Kekfrankos 2017, Hungary",
+        "price": "13 / 52",
+        "description": "",
+        "img":""
+    },
+    {
+        "category": "Wine",
+        "name": "Santa Julia Malbec 2019",
+        "price": "8 / 32",
+        "description": "",
+        "img":""
+    },
+    {
+        "category": "Wine",
+        "name": "Doqi Saperavi 2020 Kakheti, Georgia",
+        "price": "12 / 48",
+        "description": "",
+        "img":""
+    },
+    {
+        "category": "Wine",
+        "name": "Pratsch Gruner Veltliner 2020",
+        "price": "8 / 32",
+        "description": "",
+        "img":""
+    },
+    {
+        "category": "Wine",
+        "name": "Patricius Tokaji Furmit 2015, Hungary",
+        "price": "12 / 48",
+        "description": "",
+        "img":""
+    },
+    {
+        "category": "Wine",
+        "name": "Annabella Chardonnay 2018, California",
+        "price": "9 / 36",
+        "description": "",
+        "img":""
+    },
+    {
+        "category": "Wine",
+        "name": "Sziegl Olaszrizling 2019, Hungary",
+        "price": "12 / 44",
+        "description": "",
+        "img":""
+    },
+    {
+        "category": "Wine",
+        "name": "Fuleke Pallas Tokaji late Harvest 2012, Hungary",
+        "price": "8 / 32",
+        "description": "",
+        "img":""
+    },
+
+    {
+        "category": "Beer",
+        "name": "Czechvar (Budvar)",
+        "price": "8.5 / 16 / 16",
+        "description": "alc 5 %, lager with a sweet ,deep golden body and an aromatic ,hoppy foam .Bold in taste ,yet refreshing and perfectly balance",
+        "sizes": "18oz / 36oz / small boot",
+        "img":""
+    },
+    {
+        "category": "Beer",
+        "name": "Erdinger Dark",
+        "price": "8 / 15 / 16",
+        "description": "alc 5 %, lager with a sweet ,deep golden body and an aromatic ,hoppy foam .Bold in taste ,yet refreshing and perfectly balance",
+        "sizes": "18oz / 36oz / small boot",
+        "img":""
+    },
+    {
+        "category": "Beer",
+        "name": "Pilsner",
+        "price": "7.5 / 14 / 15",
+        "description": "alc.5% ,the original Pilsner from the Czech Republic is characterized by its golden color and clarity",
+        "sizes": "18oz / 36oz / small boot",
+        "img":""
+    },
+    {
+        "category": "Beer",
+        "name": "Paulaner Hefe-Weizen",
+        "price": "8 / 15 / 16",
+        "description": "alc.5.5% mild and fruity wheat beer from Germany",
+        "sizes": "18oz / 36oz / small boot",
+        "img":""
+    },
+    {
+        "category": "Beer",
+        "name": "Coronado Weekend Vibes IPA",
+        "price": "8.5 / 16 / 16",
+        "description": "alc. 6.8% West Coast IPA crystal clear ,medium gold with hop fruitiness & refreshingly dry",
+        "sizes": "18oz / 36oz / small boot",
+        "img":""
+    },
+    {
+        "category": "Beer",
+        "name": "Bottle beers",
+        "price": "6",
+        "description": "St.Pauli non- alcoholic beer Red Bridge gluten free",
+        "sizes": "",
+        "img":""
+    }
+]
