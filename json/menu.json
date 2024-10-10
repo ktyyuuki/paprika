@@ -104,14 +104,14 @@
         "name": "Homemade Apple strudl",
         "price": "9.50",
         "description": "Homemade apple strudl served with fresh made whip cream",
-        "img":"../assets/menu/homemade-apple-strudel/1.jpg"
+        "img":"../assets/menu/homemade-apple-strudel/3.jpg"
     },
     {
         "category": "Desserts",
         "name": "Chocolate cake",
         "price": "9.50",
         "description": "",
-        "img":""
+        "img":"../assets/menu/homemade-apple-strudel/2.jpg"
     },
 
     {
