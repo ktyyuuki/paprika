@@ -1,116 +1,116 @@
 [
     {
         "category": "Small plates",
-        "name": "Choice of gourmet sausage w Saurkraut, Pickles and local Bread",
-        "price": "9.50",
-        "description": "Polish Kielbasa / Swiss Bockwurts / German Spice / Italian Chicken Apple / Hungarian Sweet",
+        "name": "Choice of Gourmet Grilled Sausage",
+        "price": "11",
+        "description": "(Polish kielbasa / Swiss bockwurst / German spice / Italian chicken apple / Hungarian sweet) w Sauerkraut, pickles, dijon mustard, ketchup, and local bread",
         "img":"../assets/menu/gourmet-sausage.jpg"
     },
     {
         "category": "Small plates",
         "name": "Caprese Platter",
-        "price": "14",
-        "description": "w Mozzarella,Tomatoes,Pickles and local Bread",
+        "price": "15",
+        "description": "Mozzarella, tomatoes, pesto, olives with homemade balsamic vinaigrette",
         "img":"../assets/menu/caprese-platter/1.jpg"
     },
     {
         "category": "Small plates",
         "name": "Soup of the day",
         "price": "8",
-        "description": "",
+        "description": "Fresh homemade soup, local bread",
         "img":"../assets/menu/soup.jpg"
     },
     {
         "category": "Small plates",
         "name": "Cheese Platter",
-        "price": "14",
-        "description": "w Parmiciano Reggiano, Jarlsber and Brie",
+        "price": "15",
+        "description": "Parmigiano Reggiano, Jarlsberg, and imported Brie, local bread",
         "img":"../assets/menu/cheese.jpg"
     },
     {
         "category": "Small plates",
         "name": "House salad",
-        "price": "12",
-        "description": "Mixed greens, Tomatoes, Cucumber, Olives and Peppers",
+        "price": "14",
+        "description": "Organic mixed greens with balsamic vinaigrette, tomatoes, cucumber, olives, and peppers",
         "img":"../assets/menu/house-salad.jpg"
     },
     {
         "category": "Small plates",
         "name": "Paprika Platter",
-        "price": "18",
-        "description": "w Prosciutto di Parma, Bresaola Salami, Parmigiano Reggiano and Austrian Gruyere",
+        "price": "19",
+        "description": "Prosciutto di Parma, bresaola salami, Parmigiano & imported gouda, local bread",
         "img":"../assets/menu/paprika-platter/1.jpg"
     },
     {
         "category": "Small plates",
         "name": "Vegan Sausage",
-        "price": "9.50",
-        "description": "w Sauerkraut, Pickles and local Bread",
+        "price": "11",
+        "description": "w Sauerkraut, pickles, dijon mustard, ketchup, and local bread",
         "img":"../assets/menu/vegan-sausage/1.jpg"
     },
     {
         "category": "Small plates",
         "name": "Ceaser salad",
-        "price": "12",
-        "description": "",
+        "price": "14",
+        "description": "Romaine lettuce w homemade Caesar dressing and Parmesan, croutons",
         "img":"../assets/menu/caesar-salad.jpg"
     },
 
     {
         "category": "Entrees",
         "name": "Paprika goulash",
-        "price": "21.50",
-        "description": "Pork goulash with Gnocchi and garnished with Scalions",
+        "price": "24",
+        "description": "Traditional slow-cooked pork stew with organic broth, seasoned with paprika and other spices. Served with potato gnocchi",
         "img":"../assets/menu/paprika-goulash.jpg"
     },
     {
         "category": "Entrees",
         "name": "Chicken Paprikash",
-        "price": "22",
-        "description": "w Mash Potatoes",
+        "price": "24",
+        "description": "Chicken stew (braised chicken thighs) simmered with organic broth, infused with paprika, spices, and sour cream.Served with creamy mashed potatoes",
         "img":"../assets/menu/chicken-paprikash.jpg"
     },
     {
         "category": "Entrees",
         "name": "Szeged Goulash",
-        "price": "22.50",
-        "description": "Pork goulash cooked with Sauerkraut n Cream served with Gnocchi",
+        "price": "25",
+        "description": "Pork stew slowly cooked with sauerkraut, cream, sweet paprika, and other spices. Served with potato gnocchi",
         "img":"../assets/menu/szeged-goulash.jpg"
     },
     {
         "category": "Entrees",
-        "name": "Vegetable goulash",
-        "price": "20",
-        "description": "w Gnocchi",
+        "name": "Vegetarian Goulash",
+        "price": "23",
+        "description": "Cooked with vegetables (carrot, bell peppers, potatoes), grain-based substitute, paprika spices, sour cream, and organic veggie broth. Served with potato gnocchi ",
         "img":"../assets/menu/vegetable-goulash.jpg"
     },
     {
         "category": "Entrees",
         "name": "2 Polish Kielbasa",
-        "price": "18",
-        "description": "w Mash Potatoes and homemade Gravy",
+        "price": "21",
+        "description": "w Mashed potatoes, pickles, sauerkraut, dijon mustard, ketchup & homemade gravy",
         "img":"../assets/menu/polish-kielbasa/1.jpg"
     },
     {
         "category": "Entrees",
-        "name": "Mix of 2 sausages of 50 your choice",
-        "price": "18.50",
-        "description": "w Mash Potateos and homemade Gravy",
+        "name": "Two Grilled Sausages of Your Choice",
+        "price": "22",
+        "description": "w Creamy mashed potatoes, sauerkraut, pickles, mustard, ketchup & homemade gravy",
         "img":"../assets/menu/mix-sausage.jpg"
     },
 
     {
         "category": "Desserts",
-        "name": "Homemade Apple strudl",
-        "price": "9.50",
-        "description": "Homemade apple strudl served with fresh made whip cream",
+        "name": "Homemade Apple Strudel",
+        "price": "12",
+        "description": "Served with ice cream and homemade whipped cream",
         "img":"../assets/menu/apple.jpg"
     },
     {
         "category": "Desserts",
-        "name": "Chocolate cake",
-        "price": "9.50",
-        "description": "",
+        "name": "Chocolate Cake / Cheesecake NY Style",
+        "price": "11",
+        "description": "w Homemade whipped cream and ice cream",
         "img":"../assets/menu/homemade-apple-strudel/2.jpg"
     },
 
