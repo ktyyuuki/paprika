@@ -294,6 +294,9 @@ footer .pie-pagina p {
     font-size: 4.5em;
   }
 }
+.banner-seccion.banner-menu {
+  background-image: url("../assets/banner-menu.jpg");
+}
 
 .btn-lineal, .btn-color {
   display: inline-block;
