@@ -116,71 +116,110 @@
 
     {
         "category": "Wine",
-        "name": "Hahn Cabernet Sauvignon 2019,California",
+        "name": "Sean Minor Cabernet Sauvignon 2020, California",
+        "price": "10 / 40",
+        "description": "Red Wine",
+        "sizes":"Glass / Bottle",
+        "img":""
+    },
+    {
+        "category": "Wine",
+        "name": "Nagy-Eged Kekfrankos 2018, Hungary",
+        "price": "14 / 56",
+        "description": "Red Wine",
+        "sizes":"Glass / Bottle",
+        "img":""
+    },
+    {
+        "category": "Wine",
+        "name": "Santa Julia Malbec 2022, Argentina",
         "price": "9 / 36",
-        "description": "",
+        "description": "Red Wine",
+        "sizes":"Glass / Bottle",
         "img":""
     },
     {
         "category": "Wine",
-        "name": "Herman Kadarka 2019,Hungary",
+        "name": "Trilogia Kadarka 2021, Hungary",
+        "price": "14 / 56",
+        "description": "Red Wine",
+        "sizes":"Glass / Bottle",
+        "img":""
+    },
+    {
+        "category": "Wine",
+        "name": "Kakheti Saperavi 2020, Georgia",
         "price": "13 / 52",
-        "description": "",
+        "description": "Red Wine",
+        "sizes":"Glass / Bottle",
         "img":""
     },
     {
         "category": "Wine",
-        "name": "Kekfrankos 2017, Hungary",
+        "name": "Tokaji Furmint 2021, Hungary ",
         "price": "13 / 52",
-        "description": "",
+        "description": "White Wine",
+        "sizes":"Glass / Bottle",
         "img":""
     },
     {
         "category": "Wine",
-        "name": "Santa Julia Malbec 2019",
-        "price": "8 / 32",
-        "description": "",
+        "name": "Ancient Peaks Chardonnay 2018, California",
+        "price": "10 / 40",
+        "description": "White Wine",
+        "sizes":"Glass / Bottle",
         "img":""
     },
     {
         "category": "Wine",
-        "name": "Doqi Saperavi 2020 Kakheti, Georgia",
-        "price": "12 / 48",
-        "description": "",
-        "img":""
-    },
-    {
-        "category": "Wine",
-        "name": "Pratsch Gruner Veltliner 2020",
-        "price": "8 / 32",
-        "description": "",
-        "img":""
-    },
-    {
-        "category": "Wine",
-        "name": "Patricius Tokaji Furmit 2015, Hungary",
-        "price": "12 / 48",
-        "description": "",
-        "img":""
-    },
-    {
-        "category": "Wine",
-        "name": "Annabella Chardonnay 2018, California",
+        "name": "Pratsch Gruner Veltliner 2021, Austria",
         "price": "9 / 36",
-        "description": "",
+        "description": "White Wine",
+        "sizes":"Glass / Bottle",
         "img":""
     },
     {
         "category": "Wine",
-        "name": "Sziegl Olaszrizling 2019, Hungary",
-        "price": "12 / 44",
-        "description": "",
+        "name": "Rezeda Olaszrizling 2021, Hungary",
+        "price": "13 / 52",
+        "description": "White Wine",
+        "sizes":"Glass / Bottle",
         "img":""
     },
     {
         "category": "Wine",
-        "name": "Fuleke Pallas Tokaji late Harvest 2012, Hungary",
-        "price": "8 / 32",
+        "name": "Sparkling Wine",
+        "price": "9 / 36",
+        "description": "White Wine",
+        "sizes":"Glass / Bottle",
+        "img":""
+    },
+    {
+        "category": "Wine",
+        "name": "Patricius Tokaji Aszu 5 Puttonyos, Hungary",
+        "price": "58",
+        "description": "White Wine",
+        "sizes":"Glass / Bottle",
+        "img":""
+    },
+    {
+        "category": "Soft",
+        "name": "Coke / Diet Coke / Sprite",
+        "price": "3.5",
+        "description": "",
+        "img":""
+    },
+    {
+        "category": "Soft",
+        "name": "Spezi German Coke / Root Beer",
+        "price": "5",
+        "description": "",
+        "img":""
+    },
+    {
+        "category": "Soft",
+        "name": "Sparkling Water / Apple Martinelli’s",
+        "price": "4",
         "description": "",
         "img":""
     },
@@ -188,48 +227,56 @@
     {
         "category": "Beer",
         "name": "Czechvar (Budvar)",
-        "price": "8.5 / 16 / 16",
-        "description": "alc 5 %, lager with a sweet ,deep golden body and an aromatic ,hoppy foam .Bold in taste ,yet refreshing and perfectly balance",
-        "sizes": "18oz / 36oz / small boot",
+        "price": "8.5 / 16",
+        "description": "Alc. 5%. Lager with a sweet, deep golden body and an aromatic, hoppy foam.",
+        "sizes": "0.5L Stein 17 oz / 1L Stein 34 oz",
         "img":""
     },
     {
         "category": "Beer",
         "name": "Erdinger Dark",
-        "price": "8 / 15 / 16",
-        "description": "alc 5 %, lager with a sweet ,deep golden body and an aromatic ,hoppy foam .Bold in taste ,yet refreshing and perfectly balance",
-        "sizes": "18oz / 36oz / small boot",
+        "price": "8.5 / 16",
+        "description": "Alc. 5.3%. Elegant wheat beer with a lustrous, deep dark-brown color",
+        "sizes": "0.5L Stein 17 oz / 1L Stein 34 oz",
         "img":""
     },
     {
         "category": "Beer",
-        "name": "Pilsner",
-        "price": "7.5 / 14 / 15",
-        "description": "alc.5% ,the original Pilsner from the Czech Republic is characterized by its golden color and clarity",
-        "sizes": "18oz / 36oz / small boot",
+        "name": "Pilsner Urquell",
+        "price": "8 / 15",
+        "description": "Alc. 5%. The original pilsner and first pale lager beer",
+        "sizes": "0.5L Stein 17 oz / 1L Stein 34 oz",
         "img":""
     },
     {
         "category": "Beer",
         "name": "Paulaner Hefe-Weizen",
-        "price": "8 / 15 / 16",
-        "description": "alc.5.5% mild and fruity wheat beer from Germany",
-        "sizes": "18oz / 36oz / small boot",
+        "price": "8.5 / 16",
+        "description": "Alc. 5.5%. Natural cloudy beer, fruity with a delicate yeast flavor",
+        "sizes": "0.5L Stein 17 oz / 1L Stein 34 oz",
         "img":""
     },
     {
         "category": "Beer",
         "name": "Coronado Weekend Vibes IPA",
-        "price": "8.5 / 16 / 16",
-        "description": "alc. 6.8% West Coast IPA crystal clear ,medium gold with hop fruitiness & refreshingly dry",
-        "sizes": "18oz / 36oz / small boot",
+        "price": "9 / 17",
+        "description": "Alc. 6.8%. West Coast IPA, crystal clear, medium gold",
+        "sizes": "0.5L Stein 17 oz / 1L Stein 34 oz",
         "img":""
     },
     {
         "category": "Beer",
         "name": "Bottle beers",
-        "price": "6",
-        "description": "St.Pauli non- alcoholic beer Red Bridge gluten free",
+        "price": "7",
+        "description": "Beck’s Non-Alcoholic / Stiegl Grapefruit Radler",
+        "sizes": "",
+        "img":""
+    },
+    {
+        "category": "Beer",
+        "name": "Das Boot",
+        "price": "17",
+        "description": "(36 oz, filled with beer of your choice)",
         "sizes": "",
         "img":""
     }

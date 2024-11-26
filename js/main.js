@@ -28,7 +28,11 @@ async function render(cat, containerId){
             }
             contenidoHTML += `<div class="descripcion-menu">
                     <div class="header-menu">
-                        <h3 class="titulo-menu">${item.name}</h3>
+                        <h3 class="titulo-menu">${item.name}`
+                        if(item.sizes){
+                            contenidoHTML += `<br><span class="fw-semibold text-secondary fst-italic" style="font-size: 14px;">${item.sizes}</span>`
+                        }
+                        contenidoHTML += `</h3>
                         <p class="precio-menu">$${item.price}</p>
                     </div>
                     <p>${item.description}</p>
@@ -45,3 +49,4 @@ render('Entrees', 'entreess');
 render('Desserts', 'dessert');
 render('Wine', 'wines');
 render('Beer', 'beers');
+render('Soft', 'softs');
